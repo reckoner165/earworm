@@ -270,6 +270,14 @@ function () {
     set: function set(rate) {
       this._audioEl.playbackRate = rate;
     }
+  }, {
+    key: "muted",
+    get: function get() {
+      return this._audio.muted;
+    },
+    set: function set(isMuted) {
+      this._audioEl.muted = isMuted;
+    }
   }]);
 
   return NativeEngine;

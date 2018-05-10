@@ -1,0 +1,13 @@
+{
+  "extends": "@vimeo/eslint-config-player/es6",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+
+  }
+}
